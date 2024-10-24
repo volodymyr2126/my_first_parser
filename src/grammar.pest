@@ -1,1 +1,1 @@
-field = { (ASCII_DIGIT | "." | "-")+ }
+field = { (ASCII_DIGIT | "." | "-" | "?" | ",")+ }

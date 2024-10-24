@@ -6,7 +6,7 @@ use pest::Parser;
 pub struct Grammar;
 
 fn main() -> anyhow::Result<()> {
-    let parsed_data = Grammar::parse(Rule::field, "a")?;
+    let parsed_data = Grammar::parse(Rule::field, "-324,234")?;
     dbg!(parsed_data);
 
     Ok(())
